@@ -41,7 +41,6 @@ if (empty($PAGE->layout_options['nofooter'])) { ?>
             </div>
             <div class="footerlinks row-fluid">
                 <hr/>
-                <span class="helplink"><?php echo page_doc_link(get_string('moodledocslink')); ?></span>
                 <?php if ($hascopyright) { ?>
                     <span class="copy">&copy;<?php echo userdate(time(), '%Y').' '.$hascopyright; ?></span>
                 <?php

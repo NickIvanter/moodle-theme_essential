@@ -58,7 +58,7 @@ $THEME->javascripts_footer[] = 'dock';
 
 $THEME->editor_sheets = array('editor', 'custom');
 
-$THEME->plugins_exclude_sheets = array('mod' => array('quiz'));
+//$THEME->plugins_exclude_sheets = array('mod' => array('quiz'));
 
 $addregions = array();
 if (get_config('theme_essential', 'frontpagemiddleblocks') > 0) {
